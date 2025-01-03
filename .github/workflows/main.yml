@@ -11,4 +11,10 @@ jobs:
     steps:
       - name: Say hello
         run: |
-          echo "Hello World!"
+          echo "Hello World!",
+  date:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Now it is
+        run: |
+          echo date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]
