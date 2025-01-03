@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Now it is,
-        run: date '+%Y-%m-%d %H:%M:%S'
+        run: date
