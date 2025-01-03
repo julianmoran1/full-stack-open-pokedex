@@ -15,6 +15,5 @@ jobs:
   date:
     runs-on: ubuntu-20.04
     steps:
-      - name: Now it is
-        run: |
-          echo "date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]"
+      - name: Now it is,
+        run: date '+%Y-%m-%d %H:%M:%S'
