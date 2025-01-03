@@ -17,4 +17,4 @@ jobs:
     steps:
       - name: Now it is
         run: |
-          echo date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]
+          echo "date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]"
